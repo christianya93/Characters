@@ -10,7 +10,7 @@ import SkeletonView
 
 class CharactersViewCell: UICollectionViewCell {
     static var identifier: String = {
-        return String(describing: type(of: self))
+        return String(describing: type(of: CharactersViewCell.self))
     }()
     
     var character: CharacterModel!
